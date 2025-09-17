@@ -43,7 +43,7 @@ const TopNavbar = () => {
                 <Button
                     variant="ghost"
                     size="icon"
-                    className="relative hover:bg-gray-100 dark:hover:bg-gray-800"
+                    className="relative hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-white"
                 >
                     <Bell className="w-5 h-5" />
                     <span className="absolute top-1 right-1 bg-red-500 text-white text-xs rounded-full px-1">
@@ -55,7 +55,7 @@ const TopNavbar = () => {
                 <Button
                     variant="ghost"
                     size="icon"
-                    className="hover:bg-gray-100 dark:hover:bg-gray-800"
+                    className="hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-white mr-5"
                 >
                     <Settings className="w-5 h-5" />
                 </Button>

@@ -1,9 +1,10 @@
 import * as React from "react";
 
-export function Avatar({ children, className }) {
+export function Avatar({ children, className, ...props }) {
   return (
     <div
       className={`relative flex h-9 w-9 shrink-0 overflow-hidden rounded-full ${className}`}
+      {...props}
     >
       {children}
     </div>

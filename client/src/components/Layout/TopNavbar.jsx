@@ -19,7 +19,7 @@ const TopNavbar = () => {
         <header className="flex items-center justify-between bg-white dark:bg-gray-900 px-4 py-2 shadow-sm border-b">
             {/* Left: Workspace Name */}
             <div className="flex items-center gap-2 font-semibold text-lg">
-                <span className="text-indigo-600">CollabFlow</span>
+                <span className="text-indigo-600">GATHERLY</span>
                 <ChevronDown className="w-4 h-4 text-gray-500 cursor-pointer" />
             </div>
 

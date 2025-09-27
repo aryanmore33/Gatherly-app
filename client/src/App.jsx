@@ -6,6 +6,7 @@ import Sidebar from "./components/Layout/Sidebar";
 // Pages
 import Dashboard from "./pages/Dashboard";
 import Messages from "./pages/Messages";
+import Teams from "./pages/Teams";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/messages" element={<Messages />} />
+              <Route path="/teams" element={<Teams />} />
             </Routes>
           </main>
         </div>

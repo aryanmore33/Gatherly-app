@@ -2,7 +2,7 @@ import React from "react";
 
 const StatsCard = ({ title, value, icon: Icon, color = "bg-blue-500" }) => {
   return (
-    <div className="flex items-center p-4 bg-white dark:bg-gray-900 shadow rounded-xl">
+    <div className="flex items-center p-4 bg-white dark:bg-gray-900 hover:bg-gray-800 shadow rounded-xl">
       <div className={`p-3 rounded-full ${color} text-white`}>
         <Icon className="w-6 h-6" />
       </div>

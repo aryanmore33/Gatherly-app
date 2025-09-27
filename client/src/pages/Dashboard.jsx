@@ -5,7 +5,7 @@ import ActivityItem from '../components/Dashboard/ActivityItem';
 
 const Dashboard = () => {
   return (
-    <div className="p-6 space-y-6">
+    <div className="p-5 space-y-6">
       {/* Top Section - Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <StatsCard title="Unread Messages" value="12" icon={MessageSquare} color="bg-blue-500" />

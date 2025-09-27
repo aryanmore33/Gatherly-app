@@ -31,7 +31,7 @@ const Sidebar = () => {
       } bg-white dark:bg-gray-900 h-screen border-r dark:border-gray-800 flex flex-col transition-all duration-300`}
     >
       {/* Header */}
-      <div className="flex items-center justify-between p-4">
+      <div className="flex items-center justify-between p-4 border-b">
         <h1
           className={`font-bold text-xl text-gray-800 dark:text-white transition-opacity duration-300 ${
             sidebarOpen ? "opacity-100" : "opacity-0 hidden"

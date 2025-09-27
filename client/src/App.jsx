@@ -5,6 +5,7 @@ import Sidebar from "./components/Layout/Sidebar";
 
 // Pages
 import Dashboard from "./pages/Dashboard";
+import Messages from "./pages/Messages";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <main className="flex-1 overflow-y-auto p-4">
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/messages" element={<Messages />} />
             </Routes>
           </main>
         </div>
